@@ -18,3 +18,12 @@ git push -u gitflic main # Отправил на gitflic
 # С меня спросили логин и токен
 
 ```
+
+Подключимся по SSH
+
+```bash
+ssh-keygen -t ed25519 -C alfadecibel@yandex.ru
+# ssh-keygen - утилита для генерации SSH ключа
+# -t ed25519 - алгоритм
+# -C alfadecibel@yandex.ru метка в базе ключей
+```
