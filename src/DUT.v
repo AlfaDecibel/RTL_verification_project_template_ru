@@ -1,4 +1,4 @@
-# Модуль инвертора
+// Модуль инвертора
 
 module DUT # ( parameter int Data_width = 8)
 (
