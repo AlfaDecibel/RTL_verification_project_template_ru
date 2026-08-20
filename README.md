@@ -27,3 +27,9 @@ ssh-keygen -t ed25519 -C alfadecibel@yandex.ru
 # -t ed25519 - алгоритм
 # -C alfadecibel@yandex.ru метка в базе ключей
 ```
+
+Скомпилировать и запустить код:
+```
+verilator --binary -j 0 --trace-fst tb/tb.sv src/DUT.v
+./obj_dir/Vtb
+```
